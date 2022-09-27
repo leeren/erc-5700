@@ -6,8 +6,8 @@ import {IERC721} from "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 import {IERC721Receiver} from "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
 
 import {ERC721} from "./ERC721.sol";
-import {IERC721Bindable} from "./interfaces/IERC721Bindable.sol";
-import {IERC721Binder} from "./interfaces/IERC721Binder.sol";
+import {IERC721Bindable} from "../interfaces/IERC721Bindable.sol";
+import {IERC721Binder} from "../interfaces/IERC721Binder.sol";
 
 /// @title ERC-721 Bindable Reference Implementation.
 /// @dev Supports both "legacy" and "delegated" binding modes.

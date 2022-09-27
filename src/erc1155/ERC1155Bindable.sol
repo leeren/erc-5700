@@ -5,8 +5,8 @@ import {IERC165} from "@openzeppelin/contracts/utils/introspection/IERC165.sol";
 import {IERC1155Receiver} from "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol";
 
 import {ERC1155} from "./ERC1155.sol";
-import {IERC1155Bindable} from "./interfaces/IERC1155Bindable.sol";
-import {IERC1155Binder} from "./interfaces/IERC1155Binder.sol";
+import {IERC1155Bindable} from "../interfaces/IERC1155Bindable.sol";
+import {IERC1155Binder} from "../interfaces/IERC1155Binder.sol";
 
 /// @title ERC-1155 Bindable Reference Implementation.
 /// @dev Only supports the "delegated" binding mode.

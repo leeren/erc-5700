@@ -4,8 +4,8 @@ pragma solidity ^0.8.16;
 import {IERC165} from "@openzeppelin/contracts/utils/introspection/IERC165.sol";
 
 import {ERC721} from "./ERC721.sol";
-import {IERC721Bindable} from "./interfaces/IERC721Bindable.sol";
-import {IERC721Binder} from "./interfaces/IERC721Binder.sol";
+import {IERC721Bindable} from "../interfaces/IERC721Bindable.sol";
+import {IERC721Binder} from "../interfaces/IERC721Binder.sol";
 
 /// @title ERC-721 Binder Reference Implementation
 contract ERC721Binder is IERC721Binder {

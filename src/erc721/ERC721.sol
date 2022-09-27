@@ -12,7 +12,7 @@ pragma solidity ^0.8.16;
 import {IERC721} from "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 import {IERC721Receiver} from "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
 
-import {IERC721Errors} from "./interfaces/IERC721Errors.sol";
+import {IERC721Errors} from "../interfaces/IERC721Errors.sol";
 
 /// @title Reference Minimal ERC-721 Contract
 contract ERC721 is IERC721, IERC721Errors {
